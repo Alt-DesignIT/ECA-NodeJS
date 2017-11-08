@@ -1,0 +1,23 @@
+{
+	"hostname": "eca-iso.1blankspace.com", 
+	"logon": "ibcom@eca", 
+	"port": "443",
+	"password": "*****", 
+	"email": "support@alt-designit.com.au",
+	"testing": "false",
+	"local": "false",
+	"automations":
+	[
+		{
+			"name": "Pending Audits to be Set to Certification Recommended",
+			"functionName": "pendingAuditsToSetToCE",
+			"schedule":
+			{
+				"dayOfWeekRange": {"start": "0", "end": "6"},
+				"hour": "09",
+				"minute": "32"
+			}, 
+			"localRun": "false" 
+		}
+	]
+}
