@@ -9,6 +9,7 @@
 	"automations":
 	[
 		{
+			"automationID": "1",
 			"name": "Pending Audits to be Set to Certification Recommended",
 			"functionName": "pendingAuditsToSetToCE",
 			"schedule":
